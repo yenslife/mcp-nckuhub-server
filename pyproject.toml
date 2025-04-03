@@ -1,0 +1,29 @@
+[project]
+name = "nckuhub-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.6.0",
+    "rich>=14.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "pytest-asyncio>=0.26.0",
+    "pytest>=8.3.5",
+    "rich>=14.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+
+[project.scripts]
+start = "nckuhub_mcp.server:main"
