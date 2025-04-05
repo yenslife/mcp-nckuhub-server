@@ -6,9 +6,7 @@ def convert_ad_to_roc(year: str) -> str:
 
 
 def parse_semester_from_query_impl(query: str) -> str:
-    """
-    將使用者的自然語言查詢轉換為學期格式
-    """
+    """將使用者的自然語言查詢轉換為學期格式"""
     timestamp = time.time()
     current_year = int(time.strftime("%Y", time.localtime(timestamp)))
     current_month = int(time.strftime("%m", time.localtime(timestamp)))

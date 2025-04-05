@@ -3,9 +3,7 @@ from nckuhub_mcp.tools import fetch_all_dpmt_impl, fetch_all_course_impl
 
 
 async def search_department_id_by_name_impl(DepName: str) -> str:
-    """
-    用系所名稱進行模糊搜尋系所代碼
-    """
+    """用系所名稱進行模糊搜尋系所代碼"""
     dpmt = await fetch_all_dpmt_impl()
     department_names = [item["DepName"] for item in dpmt]
 

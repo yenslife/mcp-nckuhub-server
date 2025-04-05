@@ -10,7 +10,7 @@ from nckuhub_mcp.server import (
 
 @pytest.mark.asyncio
 async def test_get_all_course():
-    """測試 get_all_course 函數的返回格式"""
+    """測試 get_all_course 函式的回傳格式"""
     # 直接調用函數
     result = await get_all_course()
 
@@ -27,7 +27,7 @@ async def test_get_all_course():
 
 @pytest.mark.asyncio
 async def test_get_course():
-    """測試 get_course 函數的返回格式"""
+    """測試 get_course 函式的回傳格式"""
     # 使用一個已知存在的課程 ID
     course_id = "1722"  # 演算法課程
 
@@ -60,7 +60,7 @@ async def test_get_course():
 
 @pytest.mark.asyncio
 async def test_get_all_dpmt():
-    """測試 get_all_dpmt 函數的返回格式"""
+    """測試 get_all_dpmt 函式的回傳格式"""
     # 直接調用函數
     result = await get_all_dpmt()
 
@@ -77,7 +77,7 @@ async def test_get_all_dpmt():
 
 @pytest.mark.asyncio
 async def test_get_all_course_prev():
-    """測試 get_all_course_prev 函數的返回格式"""
+    """測試 get_all_course_prev 函式的回傳格式"""
     # 直接調用函數
     result = await get_all_course_prev()
 
