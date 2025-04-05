@@ -1,13 +1,14 @@
 from mcp.server.fastmcp import FastMCP
-from nckuhub_mcp.utils import (
+
+from nckuhub_mcp.tools import (
     fetch_all_course_impl,
     fetch_course_impl,
     fetch_all_dpmt_impl,
     fetch_all_course_prev_impl,
     search_department_id_by_name_impl,
     search_courses_by_department_id_impl,
-    parse_semester_from_query_impl,
 )
+from nckuhub_mcp.prompts import parse_semester_from_query_impl
 
 # Initialize the server
 mcp = FastMCP("nckuhub-mcp")
