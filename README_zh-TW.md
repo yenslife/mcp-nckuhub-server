@@ -7,7 +7,7 @@
 
 ### 啟動
 
-```base
+```bash
 uv run mcp dev src/nckuhub_mcp/server.py
 ```
 
