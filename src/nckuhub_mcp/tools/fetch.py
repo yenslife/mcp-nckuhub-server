@@ -17,8 +17,8 @@ async def fetch_all_course_impl() -> list[dict]:
     return obj["courses"]
 
 
-async def fetch_course_impl(course_id: str) -> dict:
-    data = await fetch(URL + "course" + "/" + course_id)
+async def fetch_course_impl(course_id: int) -> dict:
+    data = await fetch(URL + "course" + "/" + str(course_id))
     return json.loads(data)
 
 

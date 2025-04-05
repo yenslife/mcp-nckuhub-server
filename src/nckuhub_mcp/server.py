@@ -23,7 +23,7 @@ async def get_all_course() -> list[dict]:
 
 
 @mcp.tool()
-async def get_course(course_id: str) -> dict:
+async def get_course(course_id: int) -> dict:
     """取得指定課程的評價，包含甜度 (給分)、涼度 (課堂 loading)"""
     return await fetch_course_impl(course_id)
 
