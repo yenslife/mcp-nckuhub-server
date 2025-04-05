@@ -30,7 +30,7 @@ async def test_get_course():
     """測試 get_course 函數的返回格式"""
     # 使用一個已知存在的課程 ID
     course_id = "1722"  # 演算法課程
-    
+
     # 直接調用函數
     result = await get_course(course_id)
 

@@ -198,6 +198,7 @@ async def get_all_course_prev() -> list[dict]:
     """
     return await fetch_all_course_prev()
 
+
 def main():
     print("正在啟動 NCKUHub MCP 服務器...")
     mcp.run()
