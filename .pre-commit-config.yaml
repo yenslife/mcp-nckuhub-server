@@ -1,4 +1,9 @@
 repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.4.4  # 可查 https://github.com/astral-sh/ruff-pre-commit/releases
+    hooks:
+      - id: ruff
+        args: [--fix]  # ✅ 自動修復錯誤（例如 import 排序）
   - repo: https://github.com/psf/black
     rev: 25.1.0
     hooks:
