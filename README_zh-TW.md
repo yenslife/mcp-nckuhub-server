@@ -36,7 +36,7 @@ uv run server.py
       "command": "uv",
       "args": [
         "--directory",
-        "/Users/mac/SideProject/nckuhub-mcp/src/nckuhub_mcp",
+        "path/to/nckuhub-mcp",
         "run",
         "server.py"
       ]

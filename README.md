@@ -37,7 +37,7 @@ You can add the following configuration to your `clime_mcp_settings.json` file
       "command": "uv",
       "args": [
         "--directory",
-        "/Users/mac/SideProject/nckuhub-mcp/src/nckuhub_mcp",
+        "path/to/nckuhub-mcp",
         "run",
         "server.py"
       ]
