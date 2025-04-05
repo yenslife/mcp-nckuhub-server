@@ -6,10 +6,13 @@ from nckuhub_mcp.utils import (
     fetch_all_course_prev_impl,
     search_department_id_by_name_impl,
     search_courses_by_department_id_impl,
+    parse_semester_from_query_impl,
 )
 
 # Initialize the server
 mcp = FastMCP("nckuhub-mcp")
+
+# Tools
 
 
 @mcp.tool()
@@ -58,6 +61,15 @@ async def search_courses_by_department_id(DepPrefix: str = "") -> list[dict]:
     用系所代碼搜尋課程
     """
     return await search_courses_by_department_id_impl(DepPrefix)
+
+
+# Prompts
+@mcp.prompt()
+async def parse_semester_from_query(query: str) -> str:
+    """
+    將使用者的自然語言查詢轉換為學期格式
+    """
+    return parse_semester_from_query_impl(query)
 
 
 def main():
