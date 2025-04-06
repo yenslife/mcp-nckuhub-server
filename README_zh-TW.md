@@ -42,8 +42,9 @@ uv run nckuhub-mcp
         "--directory",
         "path/to/nckuhub-mcp",
         "run",
-        "server.py"
+        "nckuhub-mcp"
       ]
     }
   }
 }
+```

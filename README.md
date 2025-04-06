@@ -43,7 +43,7 @@ You can add the following configuration to your `clime_mcp_settings.json` file
         "--directory",
         "path/to/nckuhub-mcp",
         "run",
-        "server.py"
+        "nckuhub-mcp"
       ]
     }
   }
