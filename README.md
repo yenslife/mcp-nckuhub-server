@@ -2,17 +2,21 @@
 
 中文版請見 [README_zh-TW.md](README_zh-TW.md)
 
-This is a NCKUHub MCP service, providing course-related information.
+This is an MCP service using the NCKUHub API.
+
+Demo video
+
+[![IMAGE ALT TEXT](https://img.youtube.com/vi/ER6fYSY3aVE/0.jpg)](https://www.youtube.com/watch?v=ER6fYSY3aVE)
 
 ## Development
 
-### start
+### Start
 
-```base
+```bash
 uv run mcp dev src/nckuhub_mcp/server.py
 ```
 
-### test
+### Test
 
 ```bash
 uv run pytest
@@ -27,7 +31,7 @@ uv pip install -e .
 uv run server.py
 ```
 
-or, if you use the AI IDE such as Windsurf
+Or, if you use an AI IDE such as Windsurf
 You can add the following configuration to your `clime_mcp_settings.json` file
 
 ```json

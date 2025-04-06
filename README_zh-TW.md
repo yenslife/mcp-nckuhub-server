@@ -1,6 +1,10 @@
 # nckuhub-mcp
 
-這是一個提供課程相關資訊的 NCKUHub MCP 服務。
+這是一個使用 NCKUHub API 的 MCP 服務。
+
+以下是 Demo 影片
+
+[![IMAGE ALT TEXT](https://img.youtube.com/vi/ER6fYSY3aVE/0.jpg)](https://www.youtube.com/watch?v=ER6fYSY3aVE)
 
 ## 開發
 
