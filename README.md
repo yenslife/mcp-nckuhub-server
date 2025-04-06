@@ -28,7 +28,7 @@ Start server
 
 ```bash
 uv pip install -e .
-uv run server.py
+uv run nckuhub-mcp
 ```
 
 Or, if you use an AI IDE such as Windsurf

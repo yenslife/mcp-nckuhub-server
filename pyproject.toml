@@ -3,7 +3,7 @@ name = "nckuhub-mcp"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
     "httpx>=0.28.1",
     "mcp[cli]>=1.6.0",
@@ -11,6 +11,8 @@ dependencies = [
     "rich>=14.0.0",
     "thefuzz>=0.22.1",
 ]
+license = "MIT"
+license-files = ["LICENSE"]
 
 [dependency-groups]
 dev = [
@@ -28,4 +30,4 @@ build-backend = "hatchling.build"
 pythonpath = "src"
 
 [project.scripts]
-start = "nckuhub_mcp.server:main"
+nckuhub-mcp = "nckuhub_mcp.server:main"

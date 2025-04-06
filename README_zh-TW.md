@@ -27,7 +27,7 @@ uv run pytest
 
 ```bash
 uv pip install -e .
-uv run server.py
+uv run nckuhub-mcp
 ```
 
 或者，如果你使用如 Windsurf 等 AI IDE
