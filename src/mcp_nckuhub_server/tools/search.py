@@ -1,5 +1,5 @@
 from thefuzz import process
-from nckuhub_mcp.tools import fetch_all_dpmt_impl, fetch_all_course_impl
+from mcp_nckuhub_server.tools import fetch_all_dpmt_impl, fetch_all_course_impl
 
 
 async def search_department_id_by_name_impl(DepName: str) -> str:

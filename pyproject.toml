@@ -1,5 +1,5 @@
 [project]
-name = "nckuhub-mcp"
+name = "mcp-nckuhub-server"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -30,4 +30,4 @@ build-backend = "hatchling.build"
 pythonpath = "src"
 
 [project.scripts]
-nckuhub-mcp = "nckuhub_mcp.server:main"
+mcp-nckuhub-server = "mcp_nckuhub_server.server:main"

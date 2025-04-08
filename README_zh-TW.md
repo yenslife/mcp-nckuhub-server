@@ -1,4 +1,4 @@
-# nckuhub-mcp
+# mcp-nckuhub-server
 
 這是一個使用 NCKUHub API 的 MCP 服務。
 
@@ -12,7 +12,7 @@
 ### 啟動
 
 ```bash
-uv run mcp dev src/nckuhub_mcp/server.py
+uv run mcp dev src/mcp-nckuhub-server/server.py
 ```
 
 ### 測試
@@ -27,7 +27,7 @@ uv run pytest
 
 ```bash
 uv pip install -e .
-uv run nckuhub-mcp
+uv run mcp-nckuhub-server
 ```
 
 或者，如果你使用如 Windsurf 等 AI IDE
@@ -36,13 +36,13 @@ uv run nckuhub-mcp
 ```json
 {
   "mcpServers": {
-    "nckuhub-mcp": {
+    "mcp-nckuhub-server": {
       "command": "uv",
       "args": [
         "--directory",
-        "path/to/nckuhub-mcp",
+        "path/to/mcp-nckuhub-server",
         "run",
-        "nckuhub-mcp"
+        "mcp-nckuhub-server"
       ]
     }
   }

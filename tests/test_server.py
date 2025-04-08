@@ -1,6 +1,6 @@
 import pytest
 
-from nckuhub_mcp.server import (
+from mcp_nckuhub_server.server import (
     get_all_course,
     get_course,
     get_all_dpmt,

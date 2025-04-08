@@ -1,4 +1,4 @@
-# nckuhub-mcp
+# mcp-nckuhub-server
 
 中文版請見 [README_zh-TW.md](README_zh-TW.md)
 
@@ -13,7 +13,7 @@ Demo video
 ### Start
 
 ```bash
-uv run mcp dev src/nckuhub_mcp/server.py
+uv run mcp dev src/mcp_nckuhub_server/server.py
 ```
 
 ### Test
@@ -28,7 +28,7 @@ Start server
 
 ```bash
 uv pip install -e .
-uv run nckuhub-mcp
+uv run mcp-nckuhub-server
 ```
 
 Or, if you use an AI IDE such as Windsurf
@@ -37,13 +37,13 @@ You can add the following configuration to your `clime_mcp_settings.json` file
 ```json
 {
   "mcpServers": {
-    "nckuhub-mcp": {
+    "mcp-nckuhub-server": {
       "command": "uv",
       "args": [
         "--directory",
-        "path/to/nckuhub-mcp",
+        "path/to/mcp-nckuhub-server",
         "run",
-        "nckuhub-mcp"
+        "mcp-nckuhub-server"
       ]
     }
   }
